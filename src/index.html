@@ -135,8 +135,8 @@
               href="assets/cv/CV_Gabriele_Pinese.pdf"
               download="CV_Gabriele_Pinese.pdf"
               >Curriculum
-              <i class="fa-solid fa-arrow-down fa-bounce downloadIcon"></i
-            ></a>
+              <i class="fa-solid fa-arrow-down fa-bounce downloadIcon"></i>
+            </a>
           </li>
         </ul>
         <!-- Links -->
@@ -146,7 +146,7 @@
 
     <!-- Home -->
 
-    <div id="Home" class="container-fluid h-100 bg-white overflow-hidden">
+    <div id="Home" class="container-fluid h-100 overflow-hidden">
       <div class="row h-100">
         <div
           class="descHome col-lg-6 d-flex flex-column justify-content-center align-items-center"
@@ -162,7 +162,8 @@
         <div
           class="col-lg-6 position-relative d-flex justify-content-center align-items-center"
         >
-          <div class="overlayBlob">
+          <!-- blob -->
+          <div class="overlayBlob d-none">
             <svg
               class="position-absolute"
               version="1.1"
@@ -248,11 +249,28 @@
           <!-- <figure class="line-bi">
 					<span aria-label="Photo od Gabriele." role="img" class="img-home"></span>
 				</figure> -->
-          <img
-            class="rounded-circle img-homePage"
-            alt="avatar1"
-            src="assets/images/profilepic.webp"
-          />
+
+          <!-- ImageHomePage -->
+
+          <div class="row position-relative">
+            <div class="col-2 d-flex flex-column">
+              <div class="squareCool squareColor1"></div>
+              <div class="squareCool mt-auto squareColor2"></div>
+            </div>
+            <div
+              class="col-8 d-flex justify-content-center align-items-center position-relative"
+            >
+              <img
+                class="img-homePage"
+                alt="avatar1"
+                src="assets/images/profilepic.webp"
+              />
+            </div>
+            <div class="col-2 d-flex flex-column">
+              <div class="squareCool squareColor3"></div>
+              <div class="squareCool mt-auto squareColor4"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
